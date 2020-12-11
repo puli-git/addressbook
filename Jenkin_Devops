@@ -11,6 +11,10 @@ pipeline{
     agent {
         label 'master'
     }
+    tools{
+        maven 'mymaven'
+        jdk 'JDK'
+    }
 
     stages {
         stage('validate Project'){
