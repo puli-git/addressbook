@@ -19,20 +19,20 @@ pipeline{
     stages {
         stage('validate Project'){
                steps{
-                   script{
-                       sh"""
+        //           script{
+        //             sh"""
                        mvn validate
-                       """
-                   }
+        //           """
+        //     }
                } 
         }
         stage('Code Compile'){
                steps{
-                   script{
-                       sh"""
+                 //  script{
+                 //      sh"""
                        mvn Compile
-                       """
-                   }
+                 //      """
+                     }
                } 
         }
     
