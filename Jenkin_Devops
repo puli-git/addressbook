@@ -25,10 +25,11 @@ pipeline{
         //           """
         //     }
                } 
+
         }
         stage('Code Compile'){
                steps{
-                 //  script{
+               //  //  script{
                  //      sh"""
                        mvn Compile
                  //      """
